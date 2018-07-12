@@ -7,7 +7,7 @@
   "version":			1.0,
   "req_core_version":	3.0,
   "license":			"GPL 2 - MIT",
-  "tag":			    "template, products, quantity, unit",
+  "tag":			    "template, products, stock",
  "install":            "includes/ClicShopping/Apps/Configuration/",
   "module_directory":   "modules_products_info",
   "apps_name":          "",
