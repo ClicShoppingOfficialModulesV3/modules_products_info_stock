@@ -1,9 +1,9 @@
 <?php
 /**
  * pi_products_info_stock.php 
- * @copyright Copyright 2008 - http://www.innov-concept.com
+ * @copyright 2008 - https://www.clicshopping.org
  * @Brand : ClicShopping(Tm) at Inpi all right Reserved
- * @license GPL 2 License & MIT Licence
+ * @license GPL 2 & MIT
    
  */
 
@@ -98,7 +98,7 @@
       );
 
       $CLICSHOPPING_Db->save('configuration', [
-          'configuration_title' => 'A quel endroit souhaitez-vous afficher l\'&eacute;tat du stock ?',
+          'configuration_title' => 'A quel endroit souhaitez-vous afficher l\'état du stock ?',
           'configuration_key' => 'MODULE_PRODUCTS_INFO_STOCK_POSITION',
           'configuration_value' => 'none',
           'configuration_description' => 'Affiche l\'état du stock du produit à gauche ou à droite<br><br><i>(Valeur Left = Gauche <br>Valeur Right = Droite <br>Valeur None = Aucun)</i>',
@@ -113,7 +113,7 @@
           'configuration_title' => 'Souhaitez-vous afficher une image ou une chiffre ?',
           'configuration_key' => 'MODULE_PRODUCTS_INFO_STOCK_IMAGE',
           'configuration_value' => 'Number',
-          'configuration_description' => 'Affiche une image ou chiffre concernant l\'&eacute;tat du stock du produit',
+          'configuration_description' => 'Affiche une image ou chiffre concernant l\'état du stock du produit',
           'configuration_group_id' => '6',
           'sort_order' => '3',
           'set_function' => 'clic_cfg_set_boolean_value(array(\'Number\', \'Image\'),',
