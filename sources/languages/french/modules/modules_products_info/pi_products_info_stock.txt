@@ -1,2 +1,4 @@
 module_products_info_stock = Souhaitez-vous afficher l'état du stock ?
 module_products_info_stock_description = Affiche l'état du stock du produit dans la page de description du produit
+
+text_stock = Niveau du stock :

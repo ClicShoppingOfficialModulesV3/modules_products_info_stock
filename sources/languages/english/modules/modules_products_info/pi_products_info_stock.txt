@@ -1,3 +1,5 @@
 
  module_products_info_stock = Do you want to display the stock evaluation ?
  module_products_info_stock_description = Display the stock evaluation
+
+ text_stock = Stock level :
